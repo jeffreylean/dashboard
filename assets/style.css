@@ -1,0 +1,203 @@
+/*-------------calendar--------------*/
+.DateRangePickerInput {
+    background-color: #212529;
+    display: inline-block;
+}
+.DateRangePickerInput__withBorder {
+    border-radius: 2px;
+    border: 1px solid #212529;
+}
+.CalendarMonth {
+    background: #212529;
+    text-align: center;
+    vertical-align: top;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.CalendarDay__default {
+    border: 1px solid #007bff;
+    color: #007bff;
+    background: #212529;
+}
+.DayPickerNavigation_button__default {
+    border: 1px solid #007bff;
+    background-color: #343a40;
+    color: #999;
+}
+.CalendarMonth_caption {
+    color: #007bff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 37px;
+    caption-side: initial;
+}
+.DayPickerNavigation_svg__horizontal {
+    height: 19px;
+    width: 19px;
+    fill: #007bff;
+    display: block;
+}
+.DayPicker_weekHeader {
+    color: #3498db;
+    position: absolute;
+    top: 62px;
+    z-index: 2;
+    text-align: left;
+}
+.DayPicker__withBorder {
+    box-shadow: 0 2px 6px #212529, 0 0 0 1px #212529;
+    border-radius: 3px;
+}
+.DayPicker__horizontal {
+    background: #212529;
+}
+.CalendarMonthGrid {
+    background: #212529;
+    text-align: left;
+    z-index: 0;
+}
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #999;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit; /*https://stackoverflow.com/questions/6080413/why-doesnt-input-inherit-the-font-from-body*/}
+/* Removes awkward default styles on some inputs for iOS */
+.DateRangePickerInput_arrow_svg {
+    vertical-align: middle;
+    fill: #007bff;
+    height: 24px;
+    width: 24px;
+}
+.DateInput {
+    margin: 0;
+    padding: 0;
+    background: #999;
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle;
+}
+.DateRangePickerInput_clearDates_svg {
+    fill: #007bff;
+    height: 12px;
+    width: 15px;
+    vertical-align: middle;
+}
+.SingleDatePickerInput_clearDate_svg {
+    fill: #007bff;
+    height: 12px;
+    width: 15px;
+    vertical-align: middle;
+}
+.SingleDatePickerInput {
+    display: inline-block;
+    background-color: #212529;
+}
+.SingleDatePickerInput {
+    display: inline-block;
+    background-color: #212529;
+}
+.SingleDatePickerInput__withBorder {
+    border-radius: 2px;
+    border: 1px solid #212529;
+}
+td:not(.CalendarDay) {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #007bff;
+}
+.DateRangePickerInput__showClearDates {
+    padding-right: 40px;
+}
+/*-----------zoom button------------*/
+.updatemenu-button{
+    stroke: rgb(0, 255, 255);
+    stroke-opacity: 1;
+    fill: #212529;
+    fill-opacity: 1;
+    stroke-width: 1px;
+}
+.updatemenu-item-rect{
+fill:#212529 !important;
+}
+/*----------------Phone----------------*/
+@media only screen and (max-width: 768px) {
+  .four, .eight {
+      min-width: 100%;
+ }
+  h1, h2, h3, p {
+      text-align: center;
+ }
+  body {
+      display: block;
+      margin: 0px;
+      overflow-y: scroll;
+  }
+  .div-for-charts {
+      padding: 0px;
+      width: 100%;
+      text-align: center;
+ }
+
+ .div-user-controls {
+    padding: 32px;
+ }
+
+ .side-by-side{
+    display: inline-block;
+    width: 48%;
+  }
+
+
+ .side-by-side-right{
+    display: inline-block;
+    width: 48%;
+    float:right;
+  }
+  .div-for-charts{
+    margin: 0px;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d8d8d870 !important;
+}
+p{
+font-size:30px;
+color:#007bff
+}
