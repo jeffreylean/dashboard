@@ -1831,7 +1831,8 @@ dashboard.css.append_css({
     "external_url":"https://codepen.io/chriddyp/pen/bWLwgP.css"
 })
 if __name__ == "__main__":
-    dashboard.run_server(debug=True,dev_tools_hot_reload=True)
+    #dashboard.run_server(debug=True,dev_tools_hot_reload=True)
+	server=dashboard.Dash(__name__,debug=True)
 
 
 
